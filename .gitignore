@@ -1,1 +1,53 @@
+
+# Ignore node_modules and other dependency folders
 node_modules/
+bower_components/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.lock
+*.swp
+*.bak
+*.backup
+*.dmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore build outputs
+dist/
+build/
+*.out
+*.o
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore compiled Java files
+*.class
+
+# Ignore JavaScript and TypeScript build outputs
+*.js
+*.jsx
+*.ts
+*.tsx
+
+# Ignore package management lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore environment variable files
+.env
+.env.l
